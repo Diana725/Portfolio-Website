@@ -1,11 +1,17 @@
+import farmerImg1 from "/src/assets/images/farmer1.png";
+import farmerImg2 from "/src/assets/images/farmers2.png";
+import buyerImg from "/src/assets/images/buyers1.png";
+import adliteImg1 from "/src/assets/images/adlite1.png";
+import adliteImg2 from "/src/assets/images/adlite2.png"
+
 export const projects = [
     {
       title: "E-commerce Platform for Farmers",
       description: "This platform streamlines the agricultural supply chain by directly connecting farmers with buyers, removing the need for intermediaries. Buyers can easily access fresh, locally sourced products, while farmers benefit from increased control over pricing and distribution, enhancing their income. With features like a user-friendly interface, secure payments, and flexible delivery options, the platform ensures a seamless shopping experience. Direct connection between buyers and farmers fosters transparency, allowing for personalized orders and delivery. Ultimately, the platform empowers local farmers and provides consumers with healthy, farm-fresh food options.",
       images: [
-        "/src/assets/images/farmer1.png",
-        "/src/assets/images/farmers2.png",
-        "/src/assets/images/buyers1.png"
+        farmerImg1,
+        farmerImg2,
+        buyerImg
       ],
       technologies: [
         "React",
@@ -68,8 +74,8 @@ export const projects = [
       title: "AdLite Media Website",
       description: "The AdLite Media website showcases innovative taxi advertising solutions that help businesses increase visibility through dynamic, mobile campaigns. It offers a modern, responsive design that allows potential clients to explore advertising options with ease. The site highlights various services such as digital taxi tops and in-car ads, with case studies demonstrating their effectiveness. This sleek and intuitive website reflects AdLite Media's expertise and builds trust with potential clients through a professional, user-friendly experience.",
       images: [
-        "/src/assets/images/adlite1.png",
-        "/src/assets/images/adlite2.png"
+        adliteImg1,
+        adliteImg2
       ],
       technologies: [
         "React",
