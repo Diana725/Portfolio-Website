@@ -58,7 +58,7 @@ export default function ProjectDetails({
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+    <div  className="bg-white rounded-lg shadow-lg overflow-hidden">
       {/* Image carousel */}
       <Slider {...settings}>
         {image.map((img, index) => (
@@ -186,7 +186,7 @@ export default function ProjectDetails({
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 font-semibold"
                 >
-                  GitHub Repository →
+                  GitHub Repository→
                 </a>
               )}
               {demoLink && (
@@ -196,7 +196,7 @@ export default function ProjectDetails({
                   rel="noopener noreferrer"
                   className="ml-4 text-blue-600 hover:text-blue-800 font-semibold"
                 >
-                  Live Demo →
+                  Live Demo→
                 </a>
               )}
             </div>

@@ -19,7 +19,7 @@ export default function Introduction() {
             <div className="md:w-1/3">
               <div className="w-90 h-80 rounded-lg overflow-hidden shadow-xl mx-auto">
                 <img 
-                  src="/public/WhatsApp Image 2024-12-02 at 08.33.17.jpeg" 
+                  src="/src/assets/images/WhatsApp Image 2024-12-02 at 08.33.17.jpeg" 
                   alt="Diana Wangari Wachira" 
                   className="w-full h-full object-cover"
                 />

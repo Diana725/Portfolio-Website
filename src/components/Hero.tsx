@@ -24,10 +24,10 @@ export default function Hero() {
             <Mail size={32} />
           </Link>
         </div>
-        <div >
+        <div className="flex justify-center space-x-4">
  
   <Link to="introduction" smooth={true} duration={500}
-        className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors cursor-pointer mr-7">
+        className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors cursor-pointer">
     Learn More
   </Link>
   

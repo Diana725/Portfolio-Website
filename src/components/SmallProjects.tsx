@@ -14,21 +14,21 @@ const smallProjects: SmallProject[] = [
         description: "A fully responsive e-commerce frontend built with React and styled-components.",
         technologies: ["React", "JavaScript", "CSS", "Bootstrap"],
         githubLink: "https://github.com/Diana725/ecomm-project/",
-        image: "/public/other projects2.png"
+        image: "/src/assets/images/other projects2.png"
       },
   {
     title: "Mole Feeding Game",
     description: "An interactive game where players feed a hungry mole, demonstrating DOM manipulation and game logic.",
     technologies: ["JavaScript", "HTML", "CSS"],
     githubLink: "https://github.com/Diana725/Frontend-Projects/tree/main/Mole%20Game",
-    image: "/public/molegame.png" 
+    image: "/src/assets/images/molegame.png" 
   },
   {
     title: "Coffee Site",
     description: "A simple coffee shop website showcasing responsive design and clean UI.",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubLink: "https://github.com/Diana725/Frontend-Projects/tree/main/Coffee%20site",
-    image: "/public/coffee-site.png"
+    image: "/src/assets/images/coffee-site.png"
   },
   
   {
@@ -36,7 +36,7 @@ const smallProjects: SmallProject[] = [
     description: "A word puzzle game similar to Wordle, demonstrating React state management and word validation.",
     technologies: ["HTML", "JavaScript", "CSS"],
     githubLink: "https://github.com/Diana725/Frontend-Projects/tree/main/word%20game",
-    image: "/public/wordgame.png"
+    image: "/src/assets/images/wordgame.png"
   }
 ];
 
