@@ -26,7 +26,8 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold text-center mb-12">Get In Touch</h2>
+        <h2 className="text-4xl font-bold text-center mb-6">Get In Touch</h2>
+        <p className='text-xl text-center mb-4'>Looking to bring your web project to life? I specialize in creating dynamic, user-friendly websites that meet your business needs. Let's collaborate to build something great—get in touch today</p>
         <form onSubmit={handleSubmit} className="space-y-6">
         <div>
   <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name:</label>
