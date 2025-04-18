@@ -6,21 +6,24 @@ export default function Introduction() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Introduction Section */}
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="md:w-2/3">
-              <h2 className="text-3xl font-bold mb-6">About Me</h2>
-              <p className="text-base text-gray-700 mb-6">
-                I'm a passionate web developer focused on creating dynamic, user-centered digital experiences. I specialize in building functional, responsive websites with a clean and intuitive user interface.
-              </p>
-              <p className="text-base text-gray-700 mb-6">
-                Recently, I developed a unique e-commerce platform that connects farmers directly with buyers, simplifying the supply chain and supporting local farmers by providing them with a wider market reach.
-                Additionally, I created a website for Adlite Media, a business specializing in innovative taxi advertising solutions. This project involved showcasing my client’s unique campaigns, offering businesses a creative platform to boost their visibility.
-              </p>
-              <p className="text-base text-gray-700 mb-6">
-                Beyond client projects, I have built several demo projects that demonstrate my ability to experiment with and master new technologies. Each of these projects helped me sharpen my skills in JavaScript, React, CSS, and API integration, continuously pushing the boundaries of my capabilities.
-              </p>
-            </div>
+          <div className="md:w-2/3">
+  <h2 className="text-3xl font-bold mb-6">About Me</h2>
+  <p className="text-base text-gray-700 mb-6">
+    I’m a full-stack web and mobile developer with over a year of hands-on experience building dynamic, user-focused applications. Since September 2024, I’ve been working at Spark Publicity, where I help transform ideas into fully functional digital solutions that are both visually appealing and technically robust.
+  </p>
+  <p className="text-base text-gray-700 mb-6">
+    My work spans a range of industries—from e-commerce to education and fundraising. I developed an e-commerce platform that connects farmers directly with buyers, cutting out intermediaries and giving local farmers better market access. I also built the Sara Stories mobile app, which lets users subscribe, read, and record children’s stories, combining storytelling with tech in a meaningful way.
+  </p>
+  <p className="text-base text-gray-700 mb-6">
+    At Spark Publicity, I’ve contributed to client projects like the Adlite Media website, showcasing innovative taxi advertising campaigns, and the Impact Stories Fund platform, which enables donation tracking and video storytelling through seamless integration with YouTube and payment gateways.
+  </p>
+  <p className="text-base text-gray-700 mb-6">
+    I specialize in React, Laravel, MySQL, and API development, with a strong focus on integrating third-party services like payment gateways (IntaSend, PayPal), email verification, and mobile features using Capacitor. I enjoy solving real-world problems with code and continually pushing myself to learn and build better.
+  </p>
+</div>
+
             <div className="md:w-1/3">
-              <div className="w-90 h-80 rounded-lg overflow-hidden shadow-xl mx-auto">
+              <div className="w-100 h-90 rounded-lg overflow-hidden shadow-xl mx-auto">
                 <img 
                   src={introImage} 
                   alt="Diana Wangari Wachira" 
